@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic-Login</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+        }
+        body{
+            background-color: #ecf0f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .box{
+            margin-top: 70px;
+            background-color: #ecf0f3;
+            width: 300px;
+            height: 250px;
+            padding: 60px 35px 35px 35px;
+            box-shadow: 9px 9px 20px #cbced1,-9px -9px 20px #ffffff;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        h3{
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 30px #afafaf;
+        }
+        span{
+            color: blue;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input{
+            border:none;
+            font-size: 15px;
+            padding: 13px;
+            margin-bottom: 20px;
+            color: #555;
+            border-radius: 20px;
+            box-shadow: inset 2px 2px 4px #cbced1,
+                        inset -2px -2px 4px #ffffff;
+ 
+        }
+        button{
+            padding: 8px;
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 14px;
+            border: none;
+            border-radius: 20px;
+            box-shadow:  4px 4px 5px #cbced1,
+                         -4px -4px 5px #ffffff;
+            background-color: #ecf0f3;
+            color: #555;
+            transition: 0.3s ease-in-out;
+            
+
+        }
+        button:active{
+            box-shadow:  inset 4px 4px 5px #cbced1,
+                         inset -4px -4px 5px #ffffff;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3><span>K</span>reo<span>.</span></h3>
+            <input placeholder="Username" type="text"><br>
+            <input placeholder="Password" type="text"><br>
+            <button>Login</button>
+        </div>
+    </div>
+</body>
+</html>
